@@ -1,0 +1,11 @@
+This Streamlit-app is used to predict the price of the house in Boston, based on 5 features namely: 
+1. average number of rooms per dwelling
+2. % lower status of the population
+3. full-value property-tax rate per $10,000
+4. index of accessibility to radial highways
+5. proportion of owner-occupied units built prior to 1940
+
+The trained model is based on the Linear Regression and the Data comes from the sklearn library in python.
+
+
+Docker run command: docker run -p 8501:8501 bostonprice:latest

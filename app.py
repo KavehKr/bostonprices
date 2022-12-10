@@ -22,8 +22,8 @@ def predict(sc,model,rm,tax,lstat,rad,age):
 if __name__ =='__main__':
     rm = st.number_input('average number of rooms per dwelling:')
     lstat = st.number_input('% lower status of the population:')
-    tax = st.number_input('full-value property-tax rate per $10,000')
-    rad = st.number_input('index of accessibility to radial highways')
+    tax = st.number_input('full-value property-tax rate per $10,000:')
+    rad = st.number_input('index of accessibility to radial highways:')
     age = st.number_input('proportion of owner-occupied units built prior to 1940')
     if st.button('Predict'):
         sc,model = get_models()

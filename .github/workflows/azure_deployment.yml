@@ -34,7 +34,7 @@ jobs:
       uses: Azure/webapps-deploy@v2.2.5
       with:
     # Name of the Azure Web App
-        app-name: ds20m013-iris-app
+        app-name: bostonprices
         publish-profile: ${{ secrets.PUBLISH_PROFILE_AZURE }}
   
         images: index.docker.io/kavehcoding/bostonprices:${{ github.sha }}

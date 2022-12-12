@@ -35,7 +35,6 @@ jobs:
       with:
     # Name of the Azure Web App
         app-name: ds20m013-iris-app
-    # Applies to Web Apps(Windows and Linux) and Web App Containers(linux). Multi container scenario not supported. Publish profile (*.publishsettings) file contents with Web Deploy secrets
         publish-profile: ${{ secrets.PUBLISH_PROFILE_AZURE }}
   
         images: index.docker.io/kavehcoding/bostonprices:${{ github.sha }}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e21fc5b-68eb-4688-acfd-c430c176d120" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/azure_deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/azure_deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main_BostonHousePrice.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_BostonHousePrice.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

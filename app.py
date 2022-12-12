@@ -20,8 +20,6 @@ def predict(sc,model,rm,tax,lstat,rad,age):
         return result
 
 
-def alaki():
-    print('hello world')
 
 if __name__ =='__main__':
     rm = st.number_input('average number of rooms per dwelling:')

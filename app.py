@@ -19,6 +19,10 @@ def predict(sc,model,rm,tax,lstat,rad,age):
         result=model.predict(scaled_data)[0]
         return result
 
+
+def alaki():
+    print('hello world')
+
 if __name__ =='__main__':
     rm = st.number_input('average number of rooms per dwelling:')
     lstat = st.number_input('% lower status of the population:')
